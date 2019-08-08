@@ -6,6 +6,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		alert("자바스크립트가 활성화 되어있습니다. \n사용자의 정보를 조회합니다.");
+		$.getJSON('https://ipapi.co/json/', function(data) {
+		  var ressssult = JSON.stringify(data, null, 2);
+		  console.log(ressssult);
+		  var userAgent=navigator.userAgent.toLowerCase();
+		  console.log("userAgent: "+ userAgent);
+		  
+		  document.getElementById("yourIP").value = data.ip;
+		  document.getElementById("yourCity").value = data.city;
+		  document.getElementById("yourAgent").value = userAgent;
+		  document.getElementById("yourAtitude").value = data.latitude;
+		  document.getElementById("yourLongitude").value = data.longitude;
+		  document.getElementById("yourOrg").value = data.org;
+		  
+		});
 	</script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Prata" rel="stylesheet">
 	<link rel="stylesheet" href="css/icomoon.css">
