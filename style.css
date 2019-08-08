@@ -1,11 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
-
-/*
-	Minimaxing 1.0 by nodethirtythree design
-	http://nodethirtythree.com | @nodethirtythree
-	Released under the Creative Commons Attribution 3.0 license (nodethirtythree.com/license)
-*/
-
 /*********************************************************************************/
 /* Global                                                                        */
 /*********************************************************************************/
@@ -13,8 +5,8 @@
 	body {
 		font-size: 13.5pt;
 		font-family: sans-serif;
-		background-color: #e3e9dc;
-		font-family: 'Ubuntu Condensed', sans-serif;
+		background-color: #ffffff;
+		font-family: sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
 	}
