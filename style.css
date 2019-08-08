@@ -5,7 +5,7 @@
 	body {
 		font-size: 13.5pt;
 		font-family: sans-serif;
-		background-color: #e3e9dc;
+		background-color: #000000;
 		font-family: sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
@@ -27,7 +27,7 @@
 	}
 
 	h3,h4 {
-		color: #283121;
+		color: #D4DBC5;
 		margin-bottom: 0.2em;
 	}
 
