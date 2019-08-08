@@ -5,19 +5,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		alert("");
-		$.getJSON('https://ipapi.co/json/', function(data) {
-	  	var ressssult = JSON.stringify(data, null, 2);
-		  console.log(ressssult);
-		  var userAgent=navigator.userAgent.toLowerCase();
-		  console.log("userAgent: "+ userAgent);
-
-		  document.getElementById("yourIP").value = data.ip;
-		  document.getElementById("yourCity").value = data.city;
-		  document.getElementById("yourAgent").value = userAgent;
-		  document.getElementById("yourAtitude").value = data.latitude;
-		  document.getElementById("yourLongitude").value = data.longitude;
-		  document.getElementById("yourOrg").value = data.org;
-		});
 
 		// function myFunction() {
 		//   if(window.jsWebIF!==undefined){
