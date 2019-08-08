@@ -17,11 +17,16 @@
 		  document.getElementById("yourAgent").value = userAgent;
 		  document.getElementById("yourAtitude").value = data.latitude;
 		  document.getElementById("yourLongitude").value = data.longitude;
-		  document.getElementById("yourOrg").value = data.org;
-		  
+		  document.getElementById("yourOrg").value = data.org;		  
 		});
+		function myFunction() {
+		  if(window.jsWebIF!==undefined){
+			window.jsWebIF.toastShort("안드로이드-웹 뷰-인터페이스");
+		  } else {
+			alert("웹 뷰 환경에서만 구동 가능한 기능");
+		  }
+		}
 	</script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Prata" rel="stylesheet">
 </head>
 <body>
 	
