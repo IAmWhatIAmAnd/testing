@@ -5,7 +5,7 @@
 	body {
 		font-size: 13.5pt;
 		font-family: sans-serif;
-		background-color: #000000;
+		background-color: #e3e9dc;
 		font-family: sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
@@ -28,7 +28,7 @@
 
 	h3,h4 {
 		color: #283121;
-		margin-bottom: 0.5em;
+		margin-bottom: 0.2em;
 	}
 
 	h3 {
@@ -37,7 +37,7 @@
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	p, ul {
@@ -125,7 +125,7 @@
 
 	.button {
 		display: inline-block;
-		padding: 15px 25px 15px 25px;
+		padding: 5px 5px 5px 5px;
 		background-color: #007b9d;
 		background-image: -moz-linear-gradient(top, #008dad, #007b9d);
 		background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
